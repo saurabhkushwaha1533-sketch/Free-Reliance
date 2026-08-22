@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Free-Reliance</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 15px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #2563eb;
+      padding: 13px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 45px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #2563eb;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Free-Reliance</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Free-Reliance</h1>
+
+    <p>
+      अपनी skills का इस्तेमाल करके आगे बढ़ें।
+    </p>
+
+    <a href="#services" class="btn">शुरू करें</a>
+  </section>
+
+  <section class="section" id="services">
+    <h2>हम क्या देते हैं?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>💻 Freelancing</h3>
+        <p>
+          अपनी skills के जरिए online काम करने के अवसर खोजें।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Learning</h3>
+        <p>
+          नई skills सीखें और अपने knowledge को बढ़ाएँ।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Growth</h3>
+        <p>
+          अपने काम और skills को आगे बढ़ाने की कोशिश करें।
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>Free-Reliance के बारे में</h2>
+
+    <p>
+      Free-Reliance एक ऐसी वेबसाइट बनाने का हमारा प्रयास है
+      जहाँ लोग अपनी skills सीख सकें और उन्हें बेहतर तरीके से
+      इस्तेमाल करने के अवसर खोज सकें।
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Free-Reliance. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
